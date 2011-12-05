@@ -14,6 +14,7 @@ $(document).ready(function(){
     getPlayer().jPlayer({
         ready: function () {
             $('ul.player-controls').css('display', 'block');
+            $(document).trigger('ozetPlayer:ready', [ getPlayer() ]);
         },
         swfPath: OZET_MEDIA_URL + 'js/jQuery.jPlayer.2.1.0/',
         supplied: 'mp3'
@@ -27,8 +28,9 @@ $(document).ready(function(){
         if (!currentMedia || currentMedia != file) {
             currentMedia = file;
             getPlayer().jPlayer('setMedia', { mp3: file });
-            $recording.append($container);
+            $recording.after($container);
             $container.css('display', 'block');
+            $('ul.player-controls').removeClass('player-playing');
         }
         $(this).parents('ul').addClass('player-playing');
         getPlayer().jPlayer('play');

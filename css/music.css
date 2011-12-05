@@ -40,6 +40,10 @@
     display: none;
 }
 
+#transmissions .player-controls {
+    margin-top: 4px;
+}
+
     .player-controls li {
         float: left;
     }
@@ -49,10 +53,14 @@
         text-decoration: none;
         margin: 3px 5px 0 0;
         font-size: 12px;
+        text-indent: -999em;
+        height: 14px;
+        width: 14px;
+        background: transparent url(/media/img/ozet_player_icons.png) no-repeat 0 0;
     }
 
     .player-controls li a:hover {
-        text-decoration: underline;
+        /*text-decoration: underline;*/
     }
     
     .player-controls li a.player-pause {
@@ -65,20 +73,26 @@
     
     .player-playing li a.player-pause {
         display: block;
+        background-position: -28px 0;
+    }
+    
+    .player-controls li a.player-stop {
+        background-position: -54px 0;
     }
     
     
 /* player 2*/
 
-.jp-audio {
+div.jp-audio {
     clear: both;
-    margin-top: ;
+    margin-top: 10px;
+    display: none;
 }
 
     div.jp-time-holder {
         font-size: 12px;
         overflow: hidden;
-        width: 300px;
+        width: 200px;
     }
     
     div.jp-current-time {
@@ -94,33 +108,35 @@
         overflow: hidden;
         height: 15px;
         cursor: pointer;
-        background: #e8e8e8;
+        background: #F0CB89;
     }
     
     div.jp-progress {
-        width: 300px;
+        width: 200px;
+        margin-top: -15px;
     }
     
     div.jp-volume-bar {
-        margin: 0 0 0 20px;
+        margin: 0 0 0 240px;
         width: 100px;
     }
 
         div.jp-volume-bar-value,
         div.jp-play-bar {
-            background: #000;
+            background: #6D5C3E;
             height: 15px;
         }
         
     ul.jp-controls {
         position: relative;
+        margin: 0 0 0 220px;
     }
     
         ul.jp-controls a {
             display: block;
             width: 15px;
             height: 15px;
-            background: green;
+            background: transparent url(/media/img/ozet_player_icons.png) no-repeat 0 0;
             position: absolute;
             text-indent: -999em;
             overflow: hidden;
@@ -130,10 +146,12 @@
         ul.jp-controls a.jp-mute,
         ul.jp-controls a.jp-unmute {
             left: 0;
+            background-position: -108px 0;
         }
         
         ul.jp-controls a.jp-volume-max {
-            left: 125px ;
+            left: 125px;
+            background-position: -81px 0;
         }
 
 
