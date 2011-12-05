@@ -1,0 +1,7 @@
+#chv20-community ul {
+    margin-bottom: 20px;
+}
+
+#chv20-community li {
+    margin-bottom: 10px;
+    list-style: inside disc;

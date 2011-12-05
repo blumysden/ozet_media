@@ -1,0 +1,20 @@
+/* HISTORY */
+
+#history {
+    font-size: 14px;
+}
+
+#history article {
+  margin: 18px 18px 0;
+  text-align: justify;
+/*  font-family: arial, helvetica, sans-serif;*/
+}
+
+#history article p {
+    font-size: 12px;
+}
+/*
+#history cite, #history p {
+  display: block;
+  margin: 0 0 10px;
+}*/

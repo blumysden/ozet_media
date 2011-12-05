@@ -1,0 +1,51 @@
+#contact li {
+    margin: 10px 0 0;
+    overflow: hidden;
+}
+
+#contact li span.method{
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#contact form {
+    border: 1px solid #444;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+
+#contact fieldset {
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+#contact form p span {
+    font-size: 0.86em;
+}
+
+#contact input {
+    border: 1px solid #444;
+    padding: 5px;
+    background: #fff;
+    display: block;
+    float: left;
+    margin: 5px 0 0;
+    width: 150px;
+}
+
+#contact label {
+    float: left;
+    display: block;
+    width: 180px;
+}
+
+#contact #merge2_label {
+    width: 220px;
+}
+
+#contact #merge2_label input {
+    width: 190px;
+}

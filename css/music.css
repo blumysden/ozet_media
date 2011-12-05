@@ -1,0 +1,180 @@
+#music ul {
+    list-style: none;
+    margin: 0 0 18px;
+}
+
+    #music a:hover {
+        text-decoration: underline;
+    }
+    
+#songbook_songs h3 {
+    margin: 20px 0 0;
+}
+
+#songbook_songs .recording h4 {
+    float: left;
+    font-weight: normal;
+}
+
+#songbook_songs a.score {
+    display: none;
+}
+
+#songbook_songs h3 a.score {
+    display: inline;
+    text-decoration: none;
+}
+
+#transmissions .recording h2 {
+    float: left;
+    font-weight: normal;
+}
+
+    
+/* MUSIC PLAYER */
+
+.player-controls {
+    list-style: none;
+    margin: 0 0 0 10px;
+    float: left;
+    display: none;
+}
+
+    .player-controls li {
+        float: left;
+    }
+
+    .player-controls li a {
+        display: block;
+        text-decoration: none;
+        margin: 3px 5px 0 0;
+        font-size: 12px;
+    }
+
+    .player-controls li a:hover {
+        text-decoration: underline;
+    }
+    
+    .player-controls li a.player-pause {
+        display: none;
+    }
+    
+    .player-playing li a.player-play {
+        display: none;
+    }
+    
+    .player-playing li a.player-pause {
+        display: block;
+    }
+    
+    
+/* player 2*/
+
+.jp-audio {
+    clear: both;
+    margin-top: ;
+}
+
+    div.jp-time-holder {
+        font-size: 12px;
+        overflow: hidden;
+        width: 300px;
+    }
+    
+    div.jp-current-time {
+        float: left;
+    }
+    
+    div.jp-duration {
+        float: right;
+    }
+    
+    div.jp-volume-bar,
+    div.jp-progress {
+        overflow: hidden;
+        height: 15px;
+        cursor: pointer;
+        background: #e8e8e8;
+    }
+    
+    div.jp-progress {
+        width: 300px;
+    }
+    
+    div.jp-volume-bar {
+        margin: 0 0 0 20px;
+        width: 100px;
+    }
+
+        div.jp-volume-bar-value,
+        div.jp-play-bar {
+            background: #000;
+            height: 15px;
+        }
+        
+    ul.jp-controls {
+        position: relative;
+    }
+    
+        ul.jp-controls a {
+            display: block;
+            width: 15px;
+            height: 15px;
+            background: green;
+            position: absolute;
+            text-indent: -999em;
+            overflow: hidden;
+            top: 0;
+        }
+        
+        ul.jp-controls a.jp-mute,
+        ul.jp-controls a.jp-unmute {
+            left: 0;
+        }
+        
+        ul.jp-controls a.jp-volume-max {
+            left: 125px ;
+        }
+
+
+/* player */
+
+#player_container {
+	width: 400px;
+	margin: 10px 0;
+    display: none;
+    clear: both;
+}
+
+#player_container th {
+	width: 75px;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: normal;
+}
+
+#player_container td {
+	width: 300px;
+	border-bottom: 1px solid #000;
+	padding-top: 5px;
+}
+
+#additional_content #player_container td {
+    width: 200px;
+}
+
+#player_container span.progress {
+	height: 12px;
+	background: #000;
+	display: block;
+	width: 1%;
+}
+
+#player_container td a {
+	display: block;
+	border-left: 1px solid #000;
+	width: 2px;
+	height: 12px;
+	float: left;
+}

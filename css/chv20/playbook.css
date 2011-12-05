@@ -1,0 +1,133 @@
+body {
+    background: #fff;
+    font-family: 'courier new', monospace;
+    min-width: 960px;
+}
+
+nav {
+    width: 600px;
+    margin: 0;
+}
+
+nav ul {
+    margin: 0 0 20px 30px;
+    font-family: 'Nobile';
+}
+
+nav li {
+    margin: 0 0 10px;
+}
+
+h1 {
+    font-size: 110px;
+    font-family: 'Cardo';
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+#main_content {
+    width: 600px;
+    margin: 0;
+}
+
+#main_content article {
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 30px 0 30px 20px;
+    font-family: 'Nobile';
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 18px;
+    background: #ccc;
+    padding: 5px 5px 8px 30px;
+    margin: 0 0 20px;
+    font-family: 'Nobile';
+    font-weight: normal;
+}
+
+p { 
+    line-height: 1.4;
+    font-size: 14px;
+    margin: 0 0 15px 30px;
+}
+
+p.directions,
+p.song { 
+    font-style: italic;
+}
+
+cite {
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 10px 0 5px 30px;
+    display: block;
+}
+
+table {
+    margin: 0 0 15px 30px;
+}
+
+td p {
+    margin: 0 0 15px;
+}
+
+td cite {
+    margin: 0 0 5px;
+}
+
+td {
+    width: 190px;
+    padding-right: 10px;
+}
+
+#dramatis-personae-list {
+    margin: 0 0 20px 30px;
+    width: 570px;
+}
+
+    #dramatis-personae-list td {
+        font-size: 12px;
+        vertical-align: top;
+        padding: 0 0 10px;
+        border: none;
+        margin: none;
+    }
+    
+    #dramatis-personae-list td.artist {
+        text-align: right;
+        width: 150px;
+    }
+    
+#villager-actions-list div {
+    padding: 20px;
+    margin: 0 0 20px 30px;
+    border: 1px solid #e8e8e8;
+}
+
+    #villager-actions-list div cite,
+    #villager-actions-list div p {
+        margin-left: 0;
+        
+    }
+    
+    #villager-actions-list h4 {
+        margin-bottom: 10px;
+    }
+    
+#overheard-scenes h4 {
+    margin: 20px 0 20px 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#jp_container_1 {
+    margin: 0 0 20px 30px;
+    display: none;
+}

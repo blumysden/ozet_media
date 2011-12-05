@@ -1,0 +1,28 @@
+#video ul {
+    list-style: none;
+    margin: 0 0 20px 20px;
+}
+
+    #video li {
+        margin: 0 0 5px;
+    }
+
+    #video h2 {
+        font-size: 16px;
+        border-bottom: 1px solid #444;
+        padding: 0 0 3px;
+        margin: 0 0 10px;
+        /*background: #444444;
+        color: #EDAE40;
+        padding: 4px 10px;*/
+    }
+    
+    #video h3 {
+        font-size: 14px;
+        font-style: italic;
+        margin: 0 0 4px 10px;
+    }
+    
+    #video a:hover {
+        text-decoration: underline;
+    }
