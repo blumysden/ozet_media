@@ -5,3 +5,30 @@
 #chv20-community li {
     margin-bottom: 10px;
     list-style: inside disc;
+}
+
+#chv20-for-villagers .recording {
+    margin-bottom: 20px;
+}
+
+#chv20-for-villagers #jp_container_1 {
+    margin-bottom: 20px;
+}
+
+#chv20-for-villagers .recording h4 {
+    float: left;
+    font-weight: normal;
+}
+
+#chv20-for-villagers p.score {
+    float: left;
+    font-weight: normal;
+    margin: 0 0 0 5px;
+    font-style: italic;
+}
+
+#chv20-for-villagers p a,
+#chv20-for-villagers #tamaz-dance {
+    text-decoration: underline;
+    cursor: pointer;
+}

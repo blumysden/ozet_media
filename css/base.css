@@ -61,16 +61,26 @@ header {
     z-index: 10;
     padding: 10px 20px 0;
     overflow: hidden;
+    background: #000;
+    color: #EDAE40;
+    -moz-box-shadow: 5px 5px 10px #222;
+    -webkit-box-shadow: 5px 5px 10px #222;
+    box-shadow: 5px 5px 10px #222;
 }
 
     header h1 {
-        display: inline;
         font-size: 110px;
         font-family: 'Cardo';
     }
     
     header h1 a {
         text-decoration: none;
+        text-indent: -999em;
+        overflow: hidden;
+        display: block;
+        height: 133px;
+        width: 400px;
+        background: transparent url('../img/ozet_title_sm.png') no-repeat 0 0;
     }
     
     header h2 {
@@ -101,7 +111,7 @@ header {
     right: 0;
     width: 290px;
     padding: 30px 0;
-    z-index: 100;
+    z-index: 110;
     font-family: 'Cardo';
 }
 
@@ -135,7 +145,7 @@ header {
 #container {
     position: absolute;
     z-index: 100;
-    top: 180px;
+    top: 200px;
     left: 50px;
     width: 910px;
     margin-bottom: 100px;
@@ -183,6 +193,11 @@ header {
         #main_content p {
             font-size: 14px;
             margin-bottom: 18px;
+        }
+        
+        #main_content strong {
+            font-family: verdana, arial, helvetica, sans-serif;
+            font-weight: bold;
         }
         
         #main_content #history blockquote {
@@ -261,3 +276,38 @@ nav.pagination {
         float: left;
         margin: 0 10px 0 0;
     }
+
+
+/* CHV20 Teaser!*/
+
+figure#chv20_teaser {
+    display: block;
+    width: 446px;
+}
+
+figure#chv20_teaser figcaption {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.3;
+}
+
+figure#chv20_teaser figcaption a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+figure#chv20_teaser figcaption strong {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Cardo';
+    text-transform: uppercase;
+}
+    
+#main_content figure#chv20_teaser {
+    display: none;
+}
+
+

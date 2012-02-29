@@ -17,6 +17,19 @@
 #event ul.photos li {
     float: left;
     margin: 0 2px 2px 0;
+    background: #000;
+}
+
+#event ul.photos li.thumbnail-w-100 {
+    width: 100px;
+    height: 84px;
+    padding-top: 16px;
+}
+
+#event ul.photos li.thumbnail-w-67 {
+    height: 100px;
+    width: 84px;
+    padding-left: 16px;
 }
 
 #event ul.photos li a,
