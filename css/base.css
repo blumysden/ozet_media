@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+p a {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
     margin: 0;
